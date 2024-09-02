@@ -58,9 +58,7 @@ struct SignInView: View {
     .onDisappear {
       self.navigationHidden = false
     }
-    
   }
-  
 }
 
 extension SignInView {
@@ -103,7 +101,6 @@ extension SignInView {
           self.action = 1
         }
       }
-      
     }
   }
 }
